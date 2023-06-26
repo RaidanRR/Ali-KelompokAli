@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		/* CSS untuk header */
+		header {
+			background-color: #4285f4;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		/* CSS untuk navigasi */
+		nav {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.navbar ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+
+		.navbar li {
+			margin-right: 20px;
+			font-weight: bold;
+			font-size: 20px;
+		}
+
+		.navbar li a {
+			color: #fff;
+			text-decoration: none;
+		}
+
+		.navbar li a:hover {
+			color: #e6e6e6;
+		}
+
+		/* CSS untuk aside */
+		aside {
+			background-color: #fff;
+			padding: 20px;
+			margin-top: 20px;
+		}
+
+		aside h2 {
+			margin-bottom: 10px;
+		}
+
+		aside ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+
+		aside li {
+			margin-bottom: 10px;
+		}
+
+		aside li a {
+			text-decoration: none;
+			color: #333;
+		}
+
+		/* CSS untuk section */
+		section {
+			background-color: #fff;
+			padding: 20px;
+			margin-top: 20px;
+		}
+
+		section h2 {
+			margin-bottom: 10px;
+		}
+
+		section p {
+			margin-bottom: 20px;
+		}
+
+		section table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+
+		section th, section td {
+			padding: 10px;
+			border: 1px solid #ccc;
+		}
+
+		section th {
+			background-color: #f2f2f2;
+		}
+		/* CSS untuk navbar */
+	.navbar {
+		display: flex;
+		align-items: center;
+	}
+
+	.navbar ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+	}
+
+	.navbar li {
+		margin-right: 20px;
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	.navbar li a {
+		color: #fff;
+		text-decoration: none;
+		padding: 10px;
+		border-radius: 5px;
+		transition: background-color 0.3s ease;
+	}
+
+	.navbar li a:hover {
+		background-color: #555;
+	}
+
+	.navbar li::after { /* Menambahkan pseudo-element ::after */
+		content: "";
+		display: block;
+		height: 2px;
+		background-color: transparent; /* Mengatur warna background sesuai kebutuhan */
+	}
+
+	.navbar li:last-child::after { /* Menghilangkan pseudo-element pada elemen terakhir */
+		display: none;
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Dashboard</h1>
+	</header>
+	<nav>
+		<ul class="navbar">
+			<li><a href="kontak.html">Kontak</a></li>
+			<li><a href="Matkul.html">Daftar Mata Kuliah</a></li>
+			<li><a href="Profil.html">Profil</a></li>
+			<li><a href="Login.html">Logout</a></li>
+		</ul>
+	</nav>
+	<main>
+		<aside>
+			<h2>Kelas</h2>
+			<ul>
+				<li><a href="class.html">Kelas</a></li>
+			</ul>
+		</aside>
+		<section>
+			<h2>Selamat datang, Ali<h2>
+			<p>Text</p>
+			<table>
+				<thead>
+					<tr>
+						<th>Matkul</th>
+						<th>Nilai</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Matkul 1</td>
+						<td>85%</td>
+					</tr>
+					<tr>
+						<td>Matkul 2</td>
+						<td>92%</td>
+					</tr>
+					<tr>
+						<td>Matkul 3</td>
+						<td>76%</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</main>
+	
+	
